@@ -35,3 +35,42 @@ In your teams discuss any systems you have used that involved zero knowledge pro
 Have you seen any applications of zero knowledge proofs other than with a blockchain ?
 What is to you, the most important feature of zkp technology ?
 Think of some use cases of zero knowledge proofs that you would like to see developed.
+
+
+
+Homework 13
+
+Step Amount Total
+0	0	0
+1	2	2
+2	2	4
+3	2	6
+4	2	8
+5	2	10
+6	2	12
+
+p(a) = x³− 5x² − 4x + 20 = 0
+x³− 5x² − 4x = -20
+a = 1-→ 1 – 5 – 4 != -20
+a = 2 → 8 – 20 – 8 = -20  root at a= 2!!
+p(2) = 0. 
+(x³-5x²-4x+20)
+(x-2)
+----------------------------------
+(x²-3x-10) (x-2) = (x³-5x²-4x+20)
+a = 1
+x³ -2x² -3X² +6x -10x +20 = x³ -5x² -4x +20
+p(x) = 3
+q(x) =2
+
+Homework 14
+1.
+0 < 5 < P; S < P 
+P = prime number = 11
+S = constant = a0 = 3
+y(x) = 9x⁴ + 8x³ + 6x² + 3x + 3
+x= 1 →y(1) = 9 +8 + 6 +3 +3 = 29
+x=2 → y(2) = 144 + 64 + 24 + 6 +3 = 241
+x= 3 → y(3) = 729 + 216 + 54 + 9 +3 = 1011
+x= 6 → y(6) = 11664 + 1728 + 216 + 18 + 3 = 13629
+x=9 → y(9) = 59049 + 5832 + 486 + 27 + 3 = 65397
