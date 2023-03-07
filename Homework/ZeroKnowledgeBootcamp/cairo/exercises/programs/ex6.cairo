@@ -25,7 +25,7 @@ func calculate_sum_even{range_check_ptr}(arr_len: felt, arr: felt*, summa: felt)
     %{ print(f"my leng: {ids.arr_len}") %}
 
     if (arr_len == 0) {
-        %{ print(f"he entradi a arr_len==0: {ids.sum}") %}
+        %{ print(f"he entradi a arr_len==0: {ids.summa}") %}
         return (summa,);
     } 
     if (arr_len != 0) {
