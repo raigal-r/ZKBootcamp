@@ -14,13 +14,5 @@ from starkware.cairo.common.math import unsigned_div_rem
 func pattern{bitwise_ptr: BitwiseBuiltin*, range_check_ptr}(
     n: felt, idx: felt, exp: felt, broken_chain: felt
 ) -> (true: felt) {
-    // Count the number of trailing zeros in n.
-    _, num_trailing_zeros = unsigned_div_rem(n, 2)
-    // Shift n right by the number of trailing zeros.
-    n = bitwise_and(n >> num_trailing_zeros, 2**(idx + 1) - 1)
-    // Check if n matches the specified pattern.
-    expected = (2**exp - 1) // 3  # Bit pattern: 01010101...
-    is_match = bitwise_xor(n, expected) == 0
-    // Return 1 if n matches the pattern, 0 otherwise.
-    return (is_match,)
+
 }
